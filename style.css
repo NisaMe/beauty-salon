@@ -1,0 +1,112 @@
+body{
+   background-image: linear-gradient(rgba(26, 25, 25, 0.75), rgba(19, 17, 17, 0.75) ) , url('https://cdn.pixabay.com/photo/2015/05/31/13/29/lipstick-791761__340.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 99%;
+  height: 97vh;
+}
+
+
+.header
+{
+   width: 85%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-transform: uppercase;
+
+}
+.header button{
+   background-color: palevioletred;
+   padding: 10px;
+   cursor: pointer;
+   border: none;
+   color: white;
+   font-size: 20px;
+   width: 100px;
+}
+.header img
+{
+   width: 10%;
+
+}
+
+.header ul li
+
+{
+   list-style-type: none;
+   display: inline-block;
+   margin: 10px 10px ;
+}
+
+.header ul a
+{
+   text-decoration: none;
+   color: white;
+}
+.header input{
+ 
+   width: 100px;
+   padding: 8px;
+   outline: none;
+  
+   border-radius: 50px;
+
+   background: palevioletred;
+   
+
+}
+.body-section{
+   width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 6% 30% ;
+color: white;
+
+
+}
+h1{
+font-size: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.body-section button{
+background: rgb(170, 41, 86);
+color: white;
+padding: 15px;
+font-weight: bolder;
+font-size: 20px;
+cursor: pointer;
+width: 125px;
+border: none;
+display: inline-block;
+margin: 20px 5px;
+}
+.body-section .contact{
+   background: rgb(241, 238, 239);
+   color: rgb(209, 31, 135);
+   padding: 15px;
+   font-weight: bolder;
+   font-size: 20px;
+   cursor: pointer;
+   width: 125px;
+   border: none;
+   display: inline-block;
+   
+   }
+.body-section button:hover{
+   background: rgb(236, 224, 224);
+   color: rgb(231, 56, 138);
+   transition: 1s;
+}
+
+.body-section .contact:hover{
+   background: rgb(170, 41, 86);
+   color: rgb(250, 238, 243);
+   transition: 1s;
+}
+.body-section p{
+color: rgb(221, 196, 196);
+}
